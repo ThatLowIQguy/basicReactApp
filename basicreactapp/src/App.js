@@ -1,16 +1,14 @@
 import './App.css';
-import React, { Component } from 'react';
-import Home from './components/Home/Home';
+import React from 'react';
+import Accordian from './components/Accordian'
 
-class App extends Component {
-  render() {
+function App(){
   return (
-    <div className="App d-flex flex-column align-items-center justify-content-center w-100">
-      <div>
-        <Home/>
-      </div>
+    <div className='App'>
+      <Accordian />
     </div>
-  );
-}}
+
+  )
+}
 
 export default App;
